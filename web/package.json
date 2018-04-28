@@ -1,7 +1,19 @@
 {
-  "name": "bosck",
+  "name": "bosck-web",
   "version": "0.1.0",
-  "private": false,
+  "description": "web app to display realtime updates from server and device",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jketcham/bosck"
+  },
+  "author": "Jack Ketcham <jack@jackketcham.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash": "^4.17.10",
@@ -10,11 +22,5 @@
     "react-scripts": "1.1.4",
     "recharts": "^1.0.0-beta.10",
     "remove": "^0.1.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
