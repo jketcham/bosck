@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjketcham%2Fbosck.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjketcham%2Fbosck?ref=badge_shield)
+
 ### About
 This is a proof of concept project made for a biomedical engineering capstone group. The objective was to build a wearable device that fits in a sock that monitors heart reate, basic location awareness and alerts on fall detection. The target audience for this device would be alzheimer's patients, and more broadly, geriatrics.
 
@@ -24,3 +26,7 @@ Libraries used: serialport, ws
   - Start dev server
     - `npm run start`
   - Open browser to `localhost:3000`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjketcham%2Fbosck.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjketcham%2Fbosck?ref=badge_large)
